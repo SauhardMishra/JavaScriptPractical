@@ -1,11 +1,11 @@
-function myLocalScope() {
-  // Only change code below this line
-  const myVar = "hello";
-  console.log("inside myLocalScope", myVar);
-}
-myLocalScope();
-console.log(myVar);
+// Setup
+const outerWear = "T-Shirt";
 
-// Run and check the console
-// myVar is not defined outside of myLocalScope
-console.log("outside myLocalScope", myVar);
+function myOutfit() {
+  // Only change code below this line
+  const outerWear = "sweater";
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
