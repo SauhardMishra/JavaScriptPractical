@@ -1,2 +1,3 @@
-// Only change code below this line
-const myArray = [["Sauhard"],[1998]];
+const myArray = [50, 60, 70];
+myArray[0];
+const myData = myArray[0];
