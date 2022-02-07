@@ -1,15 +1,10 @@
-var ourDog = {
-  name: "Camper",
-  legs: 4,
-  tails: 1,
-  friends: ["everything!"],
+// Setup
+const testObj = {
+  hat: "ballcap",
+  shirt: "jersey",
+  shoes: "cleats",
 };
 
-// Only change code below this line.
-
-var myDog = {
-  name: "Lola",
-  legs: 4,
-  tails: 1,
-  friends: ["Sam", "Sarah"],
-};
+// Only change code below this line
+const hatValue = testObj.hat; // Change this line
+const shirtValue = testObj.shirt; // Change this line
